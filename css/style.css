@@ -54,11 +54,11 @@ header{
         font-size : 170%;
         color: red!important;
     }
-    .paraHeader{
-        font-size : 90%;
+    .paraHeadertxt{
+        font-size : 85%;
     }
     .aboutbtn{
-        margin-top: -15%;
+        margin-top: -25%;
         padding: 3%!important;
     }
     .aboutMe .aboutImg{
