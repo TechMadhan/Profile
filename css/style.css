@@ -49,5 +49,6 @@ header{
     .heading h2{
         margin-top: 3%;
         font-size : 170%;
+        color: red!important;
     }
 }
