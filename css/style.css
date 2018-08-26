@@ -46,9 +46,23 @@ header{
         }        
      }
 @media screen and (max-width: 380px) {
+    header{
+        height: 580px!important;
+    }
     .heading h2{
         margin-top: 3%;
-        font-size : 150%;
+        font-size : 170%;
         color: red!important;
+    }
+    .paraHeader{
+        font-size : 90%;
+    }
+    .aboutbtn{
+        margin-top: -15%;
+        padding: 3%!important;
+    }
+    .aboutMe .aboutImg{
+        border-right: hidden!important;
+        text-align: center!important;
     }
 }
