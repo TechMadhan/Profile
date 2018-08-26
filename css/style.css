@@ -1,0 +1,50 @@
+header{
+    background-image: url("../assets/img/SystemBack1.jpg");   
+    height : 661px;    
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;    
+}
+
+ a.nav-link{
+            padding: 0;
+        }
+        button .btn-outline-default{
+            padding-right: 0;
+            margin-right: 0;            
+        }
+        .btn-outline-default
+        {
+            letter-spacing: 2px;
+            font-size: 11px!important;
+            font-family: 'Do Hyeon', sans-serif;
+        }
+        .btn-outline-default:hover{
+            color:white!important;
+            background-color: #2bbbad!important;               
+        }
+
+.bg-dark{
+    background-color:rgba(0, 0, 0, 0.6)!important;
+}
+.nav-bar{
+    background-color:#000!important;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+
+@media only screen and (max-width: 768px) {
+    header{        
+        background-image: url(../assets/img/SystemBack1.jpg);
+        height : 550px;
+        width: 100%;        
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;         
+        }        
+     }
+@media (max-width: 950px)
+{
+       .nav-bar
+}
