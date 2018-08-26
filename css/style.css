@@ -35,6 +35,7 @@ header{
 @import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
 
 @media only screen and (max-width: 768px) {
+    
     header{        
         background-image: url(../assets/img/SystemBack1.jpg);
         height : 550px;
@@ -44,7 +45,9 @@ header{
         background-attachment: fixed;         
         }        
      }
-@media (max-width: 950px)
-{
-       .nav-bar
+@media only screen and (max-width: 400px) {
+    .heading h2{
+        margin-top: 3%;
+        font-size : 170%;
+    }
 }
