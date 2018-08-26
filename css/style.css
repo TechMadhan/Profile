@@ -45,10 +45,10 @@ header{
         background-attachment: fixed;         
         }        
      }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 370px) {
     .heading h2{
         margin-top: 3%;
-        font-size : 170%;
+        font-size : 150%;
         color: red!important;
     }
 }
