@@ -1,3 +1,6 @@
+body{
+    background: ;
+}
 header{
     background-image: url("../assets/img/SystemBack1.jpg");   
     height : 661px;    
@@ -32,18 +35,22 @@ header{
     background-color:#000!important;
 }
 
-.education{
+.education{    
     width : 100%;
     height : 100px;
     font-family: 'Do Hyeon', sans-serif;
     letter-spacing: 0.5px;
 }
 .edu-box{     
-    color
+    color : ;
     background: ;
     width : 340px;
     height : 300px;    
-   /* box-shadow: -5px 5px 10px 5px;    */
+    box-shadow: -5px 5px 10px 5px;
+}
+.edu-box .year p {        
+    color: white!important;
+    text-align: center!important;
 }
 @import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
 
@@ -87,6 +94,14 @@ header{
         font-size : 90%!important;
     }
     #Education{
-        margin-top: 70%!important;
+        margin-top: 40%!important;          
+    }
+    
+    .edu-box{        
+        width : 300px;
+    }
+    .edu-box .year{
+        
+        margin-left: 0%!important;
     }
 }
