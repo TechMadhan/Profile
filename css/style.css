@@ -34,7 +34,7 @@ header{
 .nav-bar{
     background-color:#000!important;
 }
-.education{         
+.education{             
     width : 100%;
     height : 100px;
     font-family: 'Do Hyeon', sans-serif;
@@ -51,6 +51,26 @@ header{
     color: white!important;
     text-align: center!important;
 }
+
+        /*SKILLS*/
+.skills {
+    height : 530px;
+    width : 100%;
+    background-color: #ecf1f4;
+}
+.technical {
+    color : aliceblue;
+    padding: 5%;
+    background-color:#424242;
+}
+.skills ul li{
+    text-align: ;
+}
+.skills .progress{
+    margin-top : 3%;
+}
+    
+        /*END OF SKILLS */
 @import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
 
 @media only screen and (max-width: 768px) {
