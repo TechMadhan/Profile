@@ -82,7 +82,7 @@ header{
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;         
-        }        
+        }            
      }
 @media screen and (max-width: 380px) {
     header{
@@ -119,8 +119,11 @@ header{
     .edu-box{        
         width : 300px;
     }
-    .edu-box .year{
-        
+    .edu-box .year{        
         margin-left: 0%!important;
     }
+    .skills { 
+       margin-top: 30%!important;
+    }
+    
 }
