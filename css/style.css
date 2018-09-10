@@ -82,7 +82,13 @@ header{
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;         
-        }            
+        }       
+    #Skills { 
+       margin-top: 280%!important;
+    }
+     #Education{
+        margin-top: 90%!important;          
+    } 
      }
 @media screen and (max-width: 380px) {
     header{
@@ -114,16 +120,12 @@ header{
     }
     #Education{
         margin-top: 40%!important;          
-    }
-    
+    }    
     .edu-box{        
         width : 300px;
     }
     .edu-box .year{        
         margin-left: 0%!important;
-    }
-    #Skills { 
-       margin-top: 350%!important;
     }
     
 }
