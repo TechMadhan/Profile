@@ -84,9 +84,11 @@ header{
         background-attachment: fixed;         
         }       
     #skills { 
-       margin-top: 300%!important;
+       margin-top: 270%!important;
     }
-   
+     #Education{
+        margin-top: 90%!important;          
+    } 
      }
 @media screen and (max-width: 380px) {
     header{
