@@ -71,7 +71,7 @@ header{
 }
     
         /*END OF SKILLS */
-@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+@import url('https:/s/fonts.googleapis.com/css?family=Do+Hyeon');
 
 @media only screen and (max-width: 768px) {
     
@@ -84,7 +84,7 @@ header{
         background-attachment: fixed;         
         }       
     #skills { 
-       margin-top: 270%!important;
+       margin-top: 240%!important;
     }
      #Education{
         margin-top: 90%!important;          
