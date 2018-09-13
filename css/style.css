@@ -9,7 +9,10 @@ header{
     background-size: cover;
     background-attachment: fixed;    
 }
-
+#map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
  a.nav-link{
             padding: 0;
         }
@@ -79,6 +82,7 @@ header{
 .skills .progress{
     margin-top : 3%;
 }
+
     
         /*END OF SKILLS */
 @import url('https:/s/fonts.googleapis.com/css?family=Do+Hyeon');
@@ -107,41 +111,6 @@ header{
     }
      }
 @media screen and (max-width: 380px) {
-    header{
-        height: 550px!important;
-    }
-    .heading h2{
-        margin-top: 2%;
-        font-size : 170%;        
-    }
-    .paraHeadertxt{
-        font-size : 80%;
-    }
-    .aboutbtn{
-        margin-top: -15%;
-        padding: 3%!important;
-    }
-    .aboutMe .aboutImg{
-        border-right: hidden!important;
-        text-align: center!important;
-    }
-    .abouttxt{
-        font-size : 100%!important;
-    }
-    .abouttxtHead{
-        font-size : 80%!important;
-    }
-    .abouttxtSub{
-        font-size : 90%!important;
-    }
-    #Education{
-        margin-top: 40%!important;          
-    }    
-    .edu-box{        
-        width : 300px;
-    }
-    .edu-box .year{        
-        margin-left: 0%!important;
-    }
+    
     
 }
