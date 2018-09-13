@@ -1,8 +1,8 @@
-
 $(document).ready(function(){
-    
-    $(window).scroll(function(){
+    console.log(screen.width);    
+    $(window).scroll(function(){        
         var scroll = $(window).scrollTop();
+            
         if (scroll > 50) {
           $(".navbar").addClass("nav-bar");
         }
@@ -25,4 +25,29 @@ $(document).ready(function(){
 }
 setInterval(blinker, 1000);
 
+    
 });
+var count = 0;
+var commentobj = function() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var textarea = document.getElementById("textarea").value;
+    if(name!="" && name.substring(0, 1) !== '[0-9]' && email != "" && textarea != "") {
+      alert("Thank You " + name + " for Your Valuable comment");  
+    }
+    else{
+        name.focus();
+    }    
+    return email;
+}
+
+function emailPrint() {    
+    
+    if(count == 0) {
+      document.getElementById("email").insertAdjacentHTML("afterend","<p style='color:blue;margin-left:10%'>Your email id will not be shared with anyone</p>");
+        count++;  
+    }
+}
+
+document.getElementById("email").addEventListener("keydown",emailPrint);
+document.getElementById("submit").addEventListener("click", commentobj);
