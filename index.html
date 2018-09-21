@@ -33,7 +33,7 @@
         <meta property="og:image:height" content="620">        
         <link rel="shortcut icon" href="assets/img/Logo_M.png" type="image/x-icon" />
    <!-- END OF BOOTSTRAP LINKS -->
-   
+   <link href="https://fonts.googleapis.com/css?family=Lobster|Ubuntu" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
    <link rel="stylesheet" href="css/style.css" type="text/css">
        
@@ -42,6 +42,7 @@
     </style>
     </head>
     <body>       
+       <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         <header class="img-responsive" id="Home">                                  
            <!-- NAV BAR  -->
             <nav class="navbar black navbar-expand-sm bg-dark navbar-dark fixed-top" id="myScrollspy" style="padding-bottom:5px;">
@@ -243,10 +244,10 @@
                  </div>
             </div>  
              <div class="container TestSkills" style="margin-top:5%">
-                <h3>Test My Coding Skills In...</h3>
-                <hr style="border: 1px solid green;width: 22%;margin-left: 3%">
-                 <div class="row text-center" style="margin-top: 2%">
-                     <div class="col-md-4">
+                <h3 style="font-family: 'Audiowide', cursive;">My Practise Sites Are...</h3>
+                <hr style="border: 1px solid green;width: 50%;margin-left: 3%">
+                 <div class="row text-center" style="margin-top: 2%;margin-left: 2%;">
+                     <div class="col-md-4" style="width :150px;">
                        <a href="http://skillrack.com/faces/ui/profile.xhtml" target="_blank">
                         <figure>                        
                          <img src="assets/img/skillrackLogo.gif" width="180px" height="100px" class="img-circle">
@@ -254,26 +255,54 @@
                          </figure>
                          </a>
                      </div>
-                     <div class="col-md-3">
+                     <div class="col-md-4" style="width :150px;">
+                        <a href="">
+                             <figure>
+                                 <img src="assets/img/geeksforgeeks.png" width="180px" height="100px" class="img-circle">
+                                  <figcaption style="font-weight: bold;letter-spacing: 1px;font-family: 'Audiowide', cursive;color: #2bbbad">
+                                      <i>GEEKSFORGEEKS </i>
+                                  </figcaption>
+                             </figure>
+                         </a>
+                     </div>
+                     <div class="col-md-4" style="width :130px;">
                         <a href="">
                          <figure>
-                         <img src="assets/img/geeksforgeeks.png" width="180px" height="100px" class="img-circle">
-                         <figcaption style="font-weight: bold;letter-spacing: 1px;font-family: 'Audiowide', cursive;color: #2bbbad"><i>GEEKSFORGEEKS </i></figcaption>
+                            <img src="assets/img/hackerrankLogo3edit.png" width="180px" height="100px" class="img-circle">
+                             <figcaption style="font-weight: bold;letter-spacing: 1px;font-family: 'Audiowide', cursive;color: #2bbbad"><i>HACKERRANK</i></figcaption>
                          </figure>
                          </a>
                      </div>
-                     <div class="col-md-4">
+                 </div>
+                  <div class="row text-center" style="margin-top: 2%;margin-left: 2%;">
+                     <div class="col-md-4" style="width :150px;">
+                       <a href="http://skillrack.com/faces/ui/profile.xhtml" target="_blank">
+                        <figure>                        
+                         <img src="assets/img/Codecademylogo.png" width="180px" height="100px" class="img-circle">
+                         <figcaption style="font-weight: bold;letter-spacing: 1px;font-family: 'Audiowide', cursive;color: #2bbbad;margin-top: 3%;"><i>CODECADEMY</i></figcaption>                        
+                         </figure>
+                         </a>
+                     </div>
+                     <div class="col-md-4" style="width :150px;" >
                         <a href="">
                          <figure>
-                            <img src="assets/img/" width="180px" height="100px" class="img-circle">
-                             <figcaption style="font-weight: bold;letter-spacing: 1px;font-family: 'Audiowide', cursive;color: #2bbbad"><i>HACKERRANK</i></figcaption>
+                         <img src="assets/img/js.png" width="180px" height="100px" class="img-circle">
+                         <figcaption style="font-weight: bold;letter-spacing: 1px;font-family: 'Audiowide', cursive;color: #2bbbad;margin-top: 3%;"><i>JAVASCRIPT</i></figcaption>
+                         </figure>
+                         </a>
+                     </div>
+                     <div class="col-md-4" style="width :150px;" class="hacker">
+                        <a href="">
+                         <figure>
+                            <img src="assets/img/HackerEarthlogo.png" width="180px" height="100px" class="img-circle">
+                             <figcaption style="font-weight: bold;letter-spacing: 1px;font-family: 'Audiowide', cursive;color: #2bbbad;margin-top: 3%;"><i>HACKEREARTH</i></figcaption>
                          </figure>
                          </a>
                      </div>
                  </div>
              </div>
               
-               <div class="container" style="margin-top: 5%">
+               <div class="container comHome" style="margin-top: 5%">
                    <div class="row text-left">
                       <div class="col-md-7">                          
                            <h4>Give Your Feedback</h4><br>
@@ -290,20 +319,40 @@
                                </form>
                            </div>
                        </div>
-                       <div class="col-md-5">
+                       <div class="col-md-5 myHome" >
                          <h4>MY HOME</h4> <br>
                            <iframe src="https://www.google.com/maps/d/embed?mid=18xlrSTE-_fwpKP0em-Gi2BoqjgtD_Lqm" width="500" height="315"></iframe>
                        </div>
                    </div>
                </div>
-                <!--<a href="http://www.hitwebcounter.com" target="_blank">
+                <!--<center>
+                    <a href="http://www.hitwebcounter.com" target="_blank">
                         <img src="http://hitwebcounter.com/counter/counter.php?page=6993110&style=0006&nbdigits=5&type=page&initCount=0" title="http://www.hitwebcounter.com/" Alt="http://www.hitwebcounter.com/"   border="0">
                     </a><br>
-                    <a href="http://www.hitwebcounter.com" title="" target="_blank" style="font-family:;font-size: px; color: #; text-decoration:  ;"></a>   -->
-              <div class="container-fluid footer" style="margin-top: 25%">                
-                   
-                            
-                            </div>          
+                    <a href="http://www.hitwebcounter.com" title="" target="_blank" style="font-family:;font-size: px; color: #; text-decoration:  ;"></a>
+                </center>-->
+              <div class="container-fluid footer" style="margin-top: 10%">                
+                        <h4 style="text-align: center;letter-spacing: 2px;font-style: italic;font-weight: bold;padding-top: 1%;font-family: 'Ubuntu', sans-serif;color: darkturquoise">Thank You For Visiting My Site</h4>   
+                          <center>
+                           <div class="linkFooter">
+                               <div class="row">
+                                   <div class="col-md-1 col-sm-1 col-xs-1 link" style="width: 30px;">
+                                       <a href="https://web.whatsapp.com/" data-toggle="tooltip" data-placement="top" title="8098398340" target="_blank"><img src="assets/img/whatsapp.png" width="30px" height="30px" class="footimage"/></a>
+                                   </div>
+                                   <div class="col-md-1 col-sm-1 col-xs-1 link" style="width: 30px;">
+                                       <a href="mailto:madhansmart7404@gmail.com/" target="_blank" ><img src="assets/img/gmail.png" width="30px" height="30px" class="footimage" /></a>
+                                   </div>
+                                   <div class="col-md-1 col-sm-1 col-xs-1 link" style="width: 30px;">
+                                       <a href="https://www.linkedin.com/in/madhan-kumar-ab852613a/"  target="_blank"><img src="assets/img/linkedin.png" width="30px" height="30px" class="footimage"/></a>
+                                   </div>
+                                   <div class="col-md-1 col-sm-1 col-xs-1 link" style="width: 30px;">
+                                       <a href="https://www.facebook.com/Madhansmart619"  target="_blank"><img src="assets/img/facebook.png" width="30px" height="30px" class="footimage"/></a>
+                                   </div>
+                               </div>
+                           </div>
+                           <h5 style="color: azure;font-family: 'Audiowide', cursive;letter-spacing: 1px;">Designed and Developed by Madhan Kumar S</h5>
+                           </center>
+              </div>          
         </section>
         <script>
           AOS.init({
