@@ -1,6 +1,27 @@
 body{
     background: ;
 }
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
 header{
     background-image: url("../assets/img/SystemBack1.jpg");   
     height : 661px;    
@@ -10,8 +31,8 @@ header{
     background-attachment: fixed;    
 }
 #map {
-        height: 400px;  /* The height is 400 pixels */
-        width: 100%;  /* The width is the width of the web page */
+        height: 400px;  
+        width: 100%;  
        }
  a.nav-link{
             padding: 0;
@@ -82,6 +103,24 @@ header{
 .skills .progress{
     margin-top : 3%;
 }
+.footer{
+    background-color: black;
+    height: 22%;
+}
+.footer h5{
+    margin-top: 1%;
+}
+.linkFooter{
+    margin-top: 1%;
+    padding-left: 40%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(20%);    
+}
+
+
+
+
+
 
     
         /*END OF SKILLS */
@@ -109,8 +148,66 @@ header{
     .Languages{
         margin-top: 5%;
     }
-     }
+    .TestSkills{
+        padding-top: 163%;
+    }
+    .myHome{
+        display: block;
+        text-align: center;
+        padding-top: 15%;
+    }
+    .myHome iframe{
+        width : 315px;
+        height: 285px;
+    }
+        
+}
+
+/*   372 * 539   */
 @media screen and (max-width: 380px) {
+    .heading h2{
+        font-size: 25px;
+    }
+    .paraHeadertxt{
+        font-size: 14px;
+    }
+    .aboutbtn{
+        margin-top: -15%;
+    }
+    .aboutImg{
+        text-align: center;
+    }
+    .footer h4{            
+        padding-top: 5%!important;
+        font-size: 16px;
+    }
+    .linkFooter{
+        padding-left: 20%;
+    }
+    .link{        
+        margin-top: 4%;
+        margin-left: 5%;
+    }.footer h5{
+        margin-top: 5%;
+        font-size: 12px!important;
+    }
+    .TestSkills h3{
+        font-size: 20px;
+    }
+    .TestSkills img{        
+        width : 50px;
+        height: 50px;
+    }
+    .TestSkills figure{
+        display: inline-block;
+        float: left;
+    }
+    .TestSkills figure figcaption{
+         font-size: 11px;   
+    }
+    .TestSkills .hacker{
+        visibility: hidden;
+    }
     
     
 }
