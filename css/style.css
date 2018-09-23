@@ -3,28 +3,27 @@ body{
 }
 
 #myBtn {
+  
   display: none;
   position: fixed;
   bottom: 20px;
   right: 30px;
-  z-index: 99;
-  font-size: 18px;
+  z-index: 99;  
   border: none;
-  outline: none;
-  background-color: red;
+  outline: none;  
   color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
+  cursor: pointer;  
+    padding: 5px;
 }
 
 #myBtn:hover {
-  background-color: #555;
+  transform: rotate(360deg);
+  transition: 1s;
 }
 
 header{
     background-image: url("../assets/img/SystemBack1.jpg");   
-    height : 665px;    
+    height : 661px;    
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,6 +47,8 @@ header{
             font-family: 'Do Hyeon', sans-serif;
         }
         .btn-outline-default:hover{
+            transition: 0.5s;
+            font-size: 12px!important;
             color:white!important;
             background-color: #2bbbad!important;               
         }
@@ -117,11 +118,6 @@ header{
     filter: grayscale(20%);    
 }
 
-
-
-
-
-
     
         /*END OF SKILLS */
 @import url('https:/s/fonts.googleapis.com/css?family=Do+Hyeon');
@@ -130,7 +126,7 @@ header{
     
     header{        
         background-image: url(../assets/img/SystemBack1.jpg);
-        height : 550px;
+        height : 570px;
         width: 100%;        
         background-repeat: no-repeat;
         background-size: cover;
