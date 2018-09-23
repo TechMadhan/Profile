@@ -10,11 +10,7 @@ $(document).ready(function(){
         else{
           $(".navbar").removeClass("nav-bar");
         }        
-  })
-    
-    //TOOLTIP
-    $('[data-toggle="tooltip"]').tooltip();  
-    //END OF TOOLTIP
+  })    
     
     $('a[href^="#"]').on('click', function(){
     $('html, body').animate({
@@ -32,6 +28,10 @@ setInterval(blinker, 1000);
 
     
 });
+
+
+
+// START OF COMMENT BOX
 var count = 0;
 var commentobj = function() {
     var name = document.getElementById("name").value;
@@ -56,6 +56,8 @@ function emailPrint() {
 
 document.getElementById("email").addEventListener("keydown",emailPrint);
 document.getElementById("submit").addEventListener("click", commentobj);
+
+//END OF COMMENT BOX
 
 window.onscroll = function() {scrollFunction()};
 
