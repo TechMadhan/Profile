@@ -167,8 +167,10 @@ header{
     .paraHeadertxt{
         font-size: 14px;
     }
+    
     .aboutbtn{
-        margin-top: -15%;
+        padding: 3%!important;
+        margin-top: -18%;
     }
     .aboutImg{
         text-align: center;
